@@ -14,16 +14,22 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       
       
       Symbol.bindElementAction(compId, symbolName, "${__1346296103_spaceship}", "click", function(sym, e) {
-         // insert code for mouse click here
-         // Show an Element.
-         //  (sym.$("name") resolves an Edge element name to a DOM
-         //  element that can be used with jQuery)
-         
-         // play the timeline from the given position (ms or label)
          sym.play(2000);
          sym.playReverse();
+         sym.$(".nextanimation").show();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Stage}", "scroll", function(sym, e) {
+         // insert code for scroll event here
          
-         sym.$("nextanimation").show();
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6000, function(sym, e) {
+         // play the timeline from the given position (ms or label)
+         sym.play(5000);
 
       });
       //Edge binding end

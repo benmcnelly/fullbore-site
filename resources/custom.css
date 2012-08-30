@@ -9,6 +9,14 @@ html,body {
   float: left;
 }*/
 
+#Stage {
+  position: absolute;
+}
+#Stage2 {
+width: 750px;
+margin: auto;
+}
+
 #topper {
 	background: url(http://i.imgur.com/tUs6q.jpg) top left #222;
 	color: white;
