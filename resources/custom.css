@@ -4,6 +4,11 @@ html,body {
 	background: #222;
 }
 
+/*Adboe crap 
+#Stage {
+  float: left;
+}*/
+
 #topper {
 	background: url(http://i.imgur.com/tUs6q.jpg) top left #222;
 	color: white;
