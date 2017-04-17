@@ -12,6 +12,7 @@ html {
 
 .section {
   background: rgba(25, 181, 254, 0.1);
+  background: url(img/asfalt-dark.png) center center repeat;
   -webkit-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 34px -3px rgba(0,0,0,0.75);
@@ -41,4 +42,25 @@ html {
   padding: 10px 20px;
   height: 45px;
   border-radius;
+}
+
+.top-link {
+  background: #343434 url(img/dark-dotted-2.png);
+}
+
+.project-box {
+  background: #5f8cd6 url(img/asfalt-dark.png);
+
+}
+
+.main-box {
+  background: #405e90 url(img/asfalt-dark.png);
+}
+
+.about-box {
+  background: #1d2e39 url(img/asfalt-dark.png);
+}
+
+.contact-box {
+  background: #2a2a2a url(img/bright-squares.png);
 }
